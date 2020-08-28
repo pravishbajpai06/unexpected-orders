@@ -1,0 +1,7 @@
+def orders(order,k):
+      count=0
+      for i in range(1,len(order)):
+            if order[i]<=k:
+                 count+=1
+                 k=k-order[i]
+      return count           
